@@ -63,10 +63,10 @@ Durante la ejecución de estos niveles, la correcta alineación de las láminas 
 
 Esto ejemplifica cómo la formación de estructuras secundarias es un paso limitante del plegamiento. 
 
-(img/fig2_foldit.png)
+![sheets together](img/fig2_foldit.png)
 Figura 2. Captura correpondiente al nivel 7, *sheets together*
 
-(img/fig3_foldit.png)
+![Lonely sheets](img/fig3_foldit.png)
 Figura 3. Captura correspondiente al nivel 10 , *Lonely sheets*
 
 ---
@@ -100,7 +100,7 @@ La experiencia en Foldit muestra claramente que:
 El uso repetido de Wiggle y Shake refleja la transición entre mínimos locales y una aproximación progresiva al mínimo global.
 
 
-![](img/fig5_foldit.png)
+![fig5](img/fig5_foldit.png)
 **Figura 5.** Optimización progresiva de la conformación hacia estados de menor energía.
 
 ---
