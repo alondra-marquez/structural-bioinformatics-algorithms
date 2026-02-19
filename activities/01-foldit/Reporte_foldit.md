@@ -37,7 +37,9 @@ Esto refleja directamente el concepto de:
 > Minimización iterativa dentro de un paisaje energético con múltiples mínimos locales.
 
 
+
 ![Control Over Clashing](img/fig1_foldit.png)
+
 Figura 1. Eliminación de conflictos estéricos mediante ajuste del backbone en el nivel _Control Over Clashing_.
 
 ---
@@ -61,10 +63,10 @@ Durante la ejecución de estos niveles, la correcta alineación de las láminas 
 
 Esto ejemplifica cómo la formación de estructuras secundarias es un paso limitante del plegamiento. 
 
-![sheets together](img/fig2_foldit.png)
+(img/fig2_foldit.png)
 Figura 2. Captura correpondiente al nivel 7, *sheets together*
 
-![Lonely sheets](img/fig3_foldit.png)
+(img/fig3_foldit.png)
 Figura 3. Captura correspondiente al nivel 10 , *Lonely sheets*
 
 ---
@@ -77,6 +79,7 @@ En el nivel _Hide the Hydrophobic_, se evidenció uno de los principios fundame
 Este comportamiento, es consecuencia del efecto hidrofóbico en solución acuosa, que contribuye significativamente a la estabilidad termodinámica del estado nativo. Cuando los residuos hidrofóbicos quedan expuestos al solvente, el sistema aumenta su energía y el puntaje disminuye en el juego.
 
 Por el contrario, el empaquetamiento interno favorece interacciones de van der Waals y estabiliza el núcleo globular.
+
 
 ![Hide the Hydrophobics](img/fig4_foldit.png)
 Figura 4. Captura correspondiente al nicel 5, *Hide the Hydrophobic*
@@ -95,6 +98,7 @@ La experiencia en Foldit muestra claramente que:
 - El sistema converge hacia mínimos energéticos específicos.
 
 El uso repetido de Wiggle y Shake refleja la transición entre mínimos locales y una aproximación progresiva al mínimo global.
+
 
 ![](img/fig5_foldit.png)
 **Figura 5.** Optimización progresiva de la conformación hacia estados de menor energía.
