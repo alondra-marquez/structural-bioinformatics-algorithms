@@ -2,11 +2,11 @@
 # Modelado estructural de AQP4 con AlphaFold2
 
 ### Sistema estudiado
-**Proteína:** Aquaporina 4  
-**Organismo:** Homo sapiens 
-**UniProt/Accesión:** P55087 
-**Longitud:** 323 aa  
-**Secuencia empleada:** [AQP4.fa](data/AQP4.fa)
+- **Proteína:** Aquaporina 4  
+- **Organismo:** Homo sapiens 
+- **UniProt/Accesión:** P55087 
+- **Longitud:** 323 aa  
+- **Secuencia empleada:** [AQP4.fa](data/AQP4.fa)
 
 
 ### Contexto biológico
@@ -36,9 +36,9 @@ Archivos principales generados :
 Modelo final: [AQP4_7a696] (../results/colabfold/AQP4_7a696.pdb)
 Métricas internas: [QP4_7a696_scores_rank_001_*.json] (../results/colabfold/AQP4_7a696_scores_rank_001_*.json)
 Evidencia gráfica:
-[AQP4_7a696_plddt.png](../results/colabfold/AQP4_7a696_plddt.png)
-[AQP4_7a696_pae.png](../results/colabfold/AQP4_7a696_pae.png)
-[AQP4_7a696_coverage.png](../results/colabfold/AQP4_7a696_coverage.png)
+[AQP4_7a696_plddt.png](../results/Colabfold/AQP4_7a696_plddt.png)
+[AQP4_7a696_pae.png](../results/Colabfold/AQP4_7a696_pae.png)
+[AQP4_7a696_coverage.png](../results/Colabfold/AQP4_7a696_coverage.png)
 
 #### 2) Métricas internas de confianza (AF2)
 
@@ -58,7 +58,7 @@ El modelo PDB seleccionado a partir del ranking fue evaluado en SwissModel Struc
 
 #### Confianza global del modelo
 
-![AQP4finalstrcuture.png](../results/colabfold/AQP4finalstrcuture.png)
+![AQP4finalstrcuture.png](../results/Colabfold/AQP4finalstructure.png)
 
 El modelo rank_001 fue seleccionado por presentar el mayor pLDDT promedio (81.2) y un pTM de 0.738.
 Un pLDDT promedio de 81.2 indica buena confianza estructural global, aunque no uniforme en toda la secuencia. Encontrar valores alrededor de 80–85 en roteínas de membrana es frecuente, debido a la presencia de regiones flexibles periféricas.
@@ -69,7 +69,7 @@ En general, estos valores indican que el modelo captura adecuadamente la arquite
 
 #### Distribución local de confianza (pLDDT por residuo)
 
-![AQP4_7a696_plddt.png](../results/colabfold/AQP4_7a696_plddt.png)
+![AQP4_7a696_plddt.png](../results/Colabfold/AQP4_7a696_plddt.png)
 
 El perfil de pLDDT que puede ser observado en la imagen muestra segmentación estructural. 
 
@@ -82,7 +82,7 @@ Por ultimo, en la región C-terminal (~260–323 aa) se observa una caída marca
 
 #### Análisis del PAE (Predicted Aligned Error)
 
-![AQP4_7a696_pae.png](../results/colabfold/AQP4_7a696_pae.png)
+![AQP4_7a696_pae.png](../results/Colabfold/AQP4_7a696_pae.png)
 
 El mapa de PAE muestra una zona central predominantemente azul oscuro (<5 Å), lo que indica baja incertidumbre relativa entre los residuos del núcleo estructural.
 Además, no se observan bloques grandes de alta incertidumbre que sugieran dominios mal orientados y las regiones terminales muestran mayor error relativo, consistente con los valores bajos de pLDDT.
@@ -90,7 +90,7 @@ Además, no se observan bloques grandes de alta incertidumbre que sugieran domin
 Esto respalda que que el núcleo transmembrana está correctamente ensamblado y que la incertidumbre se concentra en regiones periféricas y flexibles.
 
 
-![AQP4_7a696_coverage.png](../results/colabfold/AQP4_7a696_coverage.png)
+![AQP4_7a696_coverage.png](../results/Colabfold/AQP4_7a696_coverage.png)
 
 
 En general, estos resultados son coherentes con la naturaleza estructural esperada de una proteína canal de membrana, donde el dominio transmembrana es rígido y altamente conservado, mientras que las regiones citosólicas muestran mayor flexibilidad.
