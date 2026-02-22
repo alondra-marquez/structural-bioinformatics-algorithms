@@ -88,7 +88,7 @@ Se envió cada dominio individualmente contra la base PDB100, los resultados fue
 | 5fyvA01        | 5FYV       | [5fzc-assembly1_A](https://www.rcsb.org/structure/5fzc "5fzc-assembly1_A") | 1.00  | 99.7         | 0.997    |
 Tabla 1. Resultados FoldSeek (PDB100) tomando los primeros dos hits por dominio 
 
-Como se observa claramente, ños primeros hits mostraron TM-scores cercanos a 1.0, identidades de secuencia >99 y una probabilidad estructural = 1.00
+Como se observa claramente, los primeros hits mostraron TM-scores cercanos a 1.0, identidades de secuencia >99 y una probabilidad estructural = 1.00
 
 Esto confirma que varios dominios corresponden a variantes prácticamente idénticas o a determinaciones cristalográficas alternativas de proteínas muy conservadas.
 
@@ -99,7 +99,7 @@ La presencia de TM-scores cercanos a 1 indica superposición casi perfecta del p
 
 ### Modificación del script para cálculo de RMSD
 
- El script original [prog3.1.py](../scripts/prog3.1.py) permitía comparar únicamente dos estructuras individuales, por lo que se tuvieron que hacer algunas modificaciones, el script con los cambios aplicados se encuentra en [prog3.1_modified.py](../cripts/prog3.1_modified.py)
+ El script original [prog3.1.py](../scripts/prog3.1.py) permitía comparar únicamente dos estructuras individuales, por lo que se tuvieron que hacer algunas modificaciones, el script con los cambios aplicados se encuentra en [prog3.1_modified.py](../scripts/prog3.1_modified.py)
 
 Se implementaron las siguientes modificaciones:
 
@@ -118,7 +118,7 @@ Esta función:
 - Agrupa coordenadas Cα por residuo
 - Devuelve un diccionario con las coordenadas por modelo
 
-De esta manera se pueden manejar multiples estructuras en un solo archivo y de manera más significativa, calcular comparaciones arbitrarias entre pares, generalizando el script a alineamientos multiples.
+De esta manera se pueden manejar múltiples estructuras en un solo archivo y de manera más significativa, calcular comparaciones arbitrarias entre pares, generalizando el script a alineamientos múltiples.
 
 **Procesamiento del alineamiento múltiple**
 
@@ -136,7 +136,7 @@ La cual permite:
 
 **Porcentaje de identidad**
 
-Para cumplir con el requisito especifico de la asignación, se agrego una función que calcula el porcentaje de identidad 
+Para cumplir con el requisito específico de la asignación, se agregó una función que calcula el porcentaje de identidad 
 
 ```python
 def percent_identity(alignmentA, alignmentB)
@@ -144,7 +144,7 @@ def percent_identity(alignmentA, alignmentB)
 
 La cual devuelve el porcentaje, número de matches y número de posiciones comparadas 
 
-Por último,  el script se modifico para permitir que los resultados se generaran en un archivo `.tsv` independiente, para facilitar la organización y el documentar los resultados de manera sistemática 
+Por último,  el script se modificó para permitir que los resultados se generaran en un archivo `.tsv` independiente, para facilitar la organización y el documentar los resultados de manera sistemática 
 
 ---
 ### RESULTADOS E INTERPRETACIÓN 
