@@ -169,6 +169,8 @@ Los resultados completos pueden consultarse en [Resultados completos en TSV](../
 | 3ZPOcif_B | 2XUEcif_A | 72.73   | 418 | 418 | 1.129  |
 | 3PU8cif_A | 4DIQcif_B | 12.38   | 315 | 315 | 18.126 |
 | 2WWJcif_A | 5FYVcif   | 32.91   | 313 | 313 | 3.226  |
+
+
 **Tabla 2.** Resultados obtenidos del cálculo de porcentaje de identidad y RMSD.
 
 El caso control, como era de esperarse, se obtuvo 100% de identidad de secuencia en 438 posiciones alineadas y un RMSD de 0.375 Å.
