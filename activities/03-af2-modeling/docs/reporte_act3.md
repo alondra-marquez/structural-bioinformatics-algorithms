@@ -2,10 +2,10 @@
 # Modelado estructural de AQP4 con AlphaFold2
 
 ### Sistema estudiado
-**Proteína:** <<<Aquaporina 4>>>  
-**Organismo:** <<<Homo sapiens>>>  
-**UniProt/Accesión:** <<P55087>>  
-**Longitud:** <<<323>>> aa  
+**Proteína:** Aquaporina 4  
+**Organismo:** Homo sapiens 
+**UniProt/Accesión:** P55087 
+**Longitud:** 323 aa  
 **Secuencia empleada:** [AQP4.fa](data/AQP4.fa)
 
 
@@ -85,8 +85,7 @@ Por ultimo, en la región C-terminal (~260–323 aa) se observa una caída marca
 ![AQP4_7a696_pae.png](../results/colabfold/AQP4_7a696_pae.png)
 
 El mapa de PAE muestra una zona central predominantemente azul oscuro (<5 Å), lo que indica baja incertidumbre relativa entre los residuos del núcleo estructural.
-Además, no se observan bloques grandes de alta incertidumbre que sugieran dominios mal orientados.
-y las regiones terminales muestran mayor error relativo, consistente con los valores bajos de pLDDT.
+Además, no se observan bloques grandes de alta incertidumbre que sugieran dominios mal orientados y las regiones terminales muestran mayor error relativo, consistente con los valores bajos de pLDDT.
 
 Esto respalda que que el núcleo transmembrana está correctamente ensamblado y que la incertidumbre se concentra en regiones periféricas y flexibles.
 

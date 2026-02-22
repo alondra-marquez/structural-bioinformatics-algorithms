@@ -4,10 +4,10 @@
 Modelar la estructura tridimensional de una proteína individual mediante AlphaFold2 (vía ColabFold/OpenFold) y evaluar la calidad del modelo usando métricas internas de confianza y validación independiente en SwissModel Assess.
 
 ## Sistema estudiado
-**Proteína:** <<<Aquaporina 4>>>  
-**Organismo:** <<<Homo sapiens>>>  
-**UniProt/Accesión:** <<P55087>>  
-**Longitud:** <<<323>>> aa  
+**Proteína:** Aquaporina 4 
+**Organismo:** Homo sapiens 
+**UniProt/Accesión:** P55087
+**Longitud:** 323 aa  
 **Secuencia empleada:** [AQP4.fa](data/AQP4.fa)
 
 ## Metodología
