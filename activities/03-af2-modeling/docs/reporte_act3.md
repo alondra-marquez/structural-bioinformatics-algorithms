@@ -19,7 +19,7 @@ H₂O(in) ⇌ H₂O(out)
 
 ### Metodología
 
-##### 1) Modelado estructural (AF2 – ColabFold)
+#### 1) Modelado estructural (AF2 – ColabFold)
 
 La estructura tridimensional de AQP4 fue predicha utilizando AlphaFold2 a través del entorno ColabFold.
 Configuración empleada:
@@ -32,13 +32,14 @@ Configuración empleada:
 
 Se seleccionó el modelo mejor rankeado (rank_001) para análisis posteriores.
 
-Archivos principales generados :
-Modelo final: [AQP4_7a696] (../results/colabfold/AQP4_7a696.pdb)
-Métricas internas: [QP4_7a696_scores_rank_001_*.json] (../results/colabfold/AQP4_7a696_scores_rank_001_*.json)
+Archivos principales generados:
+- Modelo final: [AQP4_7a696](../results/Colabfold/AQP4_7a696.pdb)
+- Métricas internas: [QP4_7a696_scores_rank_001.json](../results/Colabfold/AQP4_7a696_scores_rank_001_alphafold2_ptm_model_3_seed_000*.json)
+
 Evidencia gráfica:
-[AQP4_7a696_plddt.png](../results/Colabfold/AQP4_7a696_plddt.png)
-[AQP4_7a696_pae.png](../results/Colabfold/AQP4_7a696_pae.png)
-[AQP4_7a696_coverage.png](../results/Colabfold/AQP4_7a696_coverage.png)
+- [AQP4_7a696_plddt.png](../results/Colabfold/AQP4_7a696_plddt.png)
+- [AQP4_7a696_pae.png](../results/Colabfold/AQP4_7a696_pae.png)
+- [AQP4_7a696_coverage.png](../results/Colabfold/AQP4_7a696_coverage.png)
 
 #### 2) Métricas internas de confianza (AF2)
 
