@@ -1,0 +1,5 @@
+idA	idB	pairs	matches	pid	nCA	rmsd
+3ZPOcif_A	3ZPOcif_B	100.00	438	438	0.375
+3ZPOcif_B	2XUEcif_A	72.73	418	418	1.129
+3PU8cif_A	4DIQcif_B	12.38	315	315	18.126
+2WWJcif_A	5FYVcif	32.91	313	313	3.226
